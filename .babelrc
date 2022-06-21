@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "tailwind": "./tailwind.ts",
+          "src": "./src",
+          "views": "./src/views",
+          "state": "./src/state",
+          "assets": "./src/assets",
+          "navigators": "./src/navigators",
+          "screens": "./src/views/screen",
+          "shared": "./src/views/shared",
+          "components": "./src/views/components",
+          "constants": "./src/views/constants"
+        }
+      }
+    ]
+  ]
+}
